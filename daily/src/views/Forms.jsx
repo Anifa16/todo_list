@@ -56,16 +56,16 @@ export default class Forms extends Component {
           />
           <button className="input-btn" type="submit">Add to List</button>
         </form>
-        <ul>
+        <ol>
           {this.state.list.map((item) => {
             return (
-              <li key={item.id}>
+              <li className="checked" key={item.id}>
                 {item.value}
-                <button onClick={() => this.deleteTask(item.id)}>Done</button>
+                <button className="close" onClick={() => this.deleteTask(item.id)}>Done</button>
               </li>
             )
           })}
-        </ul>
+        </ol>
       </div>
     );
   }
