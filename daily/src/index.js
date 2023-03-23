@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Forms from './components/Forms';
 import App from './App';
 
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <App />
+);
 
-ReactDOM.render(<Forms/>,getElementById('root'));
 
