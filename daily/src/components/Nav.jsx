@@ -19,6 +19,12 @@ export default class Nav extends Component {
               <li className="nav-item">
                 <Link className="nav-link" to="/Forms">Todo List</Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/Register">Register</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/Page">Dylan</Link>
+              </li>
             </ul>
             <form className="d-flex" role="search">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
